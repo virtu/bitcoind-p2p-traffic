@@ -170,7 +170,6 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-# Raw input and intermediate data files
-data/raw
-data/systemd_preprocessed.csv.bz2
-data/tracepoints_preprocessed.csv.bz2
+# Ignore input data
+input_data/*
+!input_data/update.sh
