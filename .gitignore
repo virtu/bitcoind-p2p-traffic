@@ -169,3 +169,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Raw input and intermediate data files
+data/raw
+data/systemd_preprocessed.csv.bz2
+data/tracepoints_preprocessed.csv.bz2
